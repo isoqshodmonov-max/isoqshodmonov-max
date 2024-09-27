@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Asosiy yo'l
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname,  'index.html'));
 });
 
 app.listen(PORT, () => {
