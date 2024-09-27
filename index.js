@@ -13,6 +13,4 @@ app.get('/', (req, res) => {
 app.use(express.static(path.join(__dirname)));
 
 // Serverni ishga tushirish
-app.listen(PORT, () => {
-    console.log(`Server http://localhost:${PORT} manzilida ishga tushdi.`);
-});
+app.listen(PORT);
